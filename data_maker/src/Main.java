@@ -32,13 +32,13 @@ public class Main {
     public static void main(String[] args) {
         Out();
 
-//        loop(10, 40, 4, 8, 12, "loop1");
+        loop(10, 40, 4, 8, 12, "loop1");
         //jal冲突检测
-//        for(int i=1;i<=10;i++)
-//        {
-//            Jal.block_jal_ct(8,21,i%2==1,"jal"+i);
-//            block0(2, 8, 21);
-//        }
+        for(int i=1;i<=10;i++)
+        {
+            Jal.block_jal_ct(8,21,i%2==1,"jal"+i);
+            block0(2, 8, 21);
+        }
 
         Jal.block_jal_normal(10,20,8,21,"jal11");
 
